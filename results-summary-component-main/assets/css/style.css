@@ -25,6 +25,7 @@ body{
     width: 600px;
     border-radius: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+    margin-bottom: 10px;
 }
 /*********** INÍCIO RESULTADO ********/
 .resultado{
@@ -99,40 +100,102 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     width: 50%;
     border-radius: 20px;
 }
 
-.sumario p{
-    margin: 10px;
+.sumario p:nth-child(1){
+    width: 250px;
+    margin-bottom: 10px;
     color: rgb(38, 38, 82);
     font-size: 20px;
     font-weight: bold;
 }
 
-.sumario div{
+.categorias{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #6a53ec;
     width: 250px;
-    height: 40px;
-    margin: 5px;
+    height: 45px;
+    margin: 10px;
     border-radius: 5px;
 }
+
+.categorias div{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sumario div:nth-child(n + 1){
+    padding: 0px 5px;
+}
+
+.sumario div:nth-child(2){
+    background-color: #FEF5F3;
+    
+}
+
+.sumario div:nth-child(3){
+    background-color: #FFFFED;
+}
+
+.sumario div:nth-child(4){
+    background-color: #EDFFF5;
+}
+
+.sumario div:nth-child(5){
+    background-color: #F8F3FE;
+}
+
+.categorias div img{
+    padding-right: 10px;
+}
+
+.categorias div p{
+    font-weight: bold;
+}
+
+.reacao{
+    color: #e76363;
+}
+
+.memoria{
+    color: #f3cb5e;
+}
+
+.verbal{
+    color: #45ddbc;
+}
+
+.visual{
+    color: #3d3bda;
+}
+
+.categorias span span{
+    font-weight: bold;
+}
+
 
 .sumario button{
     color: #fff;
     width: 250px;
-    height: 40px;
-    background: #224;
-    text-decoration: none;
-    border-radius: 20px;
+    height: 45px;
+    font-weight: bold;
+    background: #3d3c5c;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
 }
 
 
 /********* FIM SUMÁRIO *********/
+
+/*** INICÍO ATRIBUIÇÃO ***/
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -141,3 +204,5 @@ body{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+/*** FIM ATRIBUIÇÃO ***/
