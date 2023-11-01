@@ -20,21 +20,21 @@ body{
 
 .conteudo{
     display: flex;
-    height: 500px;
+    height: 400px;
     width: 600px;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
 }
 
 .resultado{
     width: 50%;
-    background: linear-gradient();
-    border-radius: 10px;
+    background-image: linear-gradient(0deg, #1900ffe5, 40%, #6a53ec);
+    border-radius: 20px;
 }
 
 .sumario{
     width: 50%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 
