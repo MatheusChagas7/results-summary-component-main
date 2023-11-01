@@ -111,6 +111,26 @@ body{
     font-weight: bold;
 }
 
+.sumario div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6a53ec;
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.sumario button{
+    color: #fff;
+    width: 250px;
+    height: 40px;
+    background: #224;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
 
 /********* FIM SUMÁRIO *********/
 .attribution {
