@@ -55,7 +55,7 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    background-image: linear-gradient(190deg, #442fffe5, 40%, rgb(81, 55, 228));
+    background-image: linear-gradient(180deg, #442fffe5, 40%, rgb(81, 55, 228));
 }
 
 .result-texto{
