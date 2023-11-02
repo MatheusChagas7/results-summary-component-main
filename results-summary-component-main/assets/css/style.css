@@ -25,7 +25,7 @@ body{
     width: 600px;
     border-radius: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /*********** INÍCIO RESULTADO ********/
 .resultado{
@@ -206,3 +206,23 @@ body{
   }
 
 /*** FIM ATRIBUIÇÃO ***/
+
+/*** VERSÃO MOBILE ***/
+
+@media(max-width: 599px){
+    .conteudo{
+        flex-direction: column;
+        height: 800px;
+        width: 300px;
+    }
+
+    .resultado{
+        height: 50%;
+        width: 100%;
+    }
+
+    .sumario{
+        height: 50%;
+        width: 100%;
+    }
+}
