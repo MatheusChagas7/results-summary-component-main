@@ -2,8 +2,6 @@
 // definindo url para o uso no github
 urlData = 'https://github.com/MatheusChagas7/results-summary-component-main/blob/main/data.json';
 
-console.log(urlData);
-
 fetch(urlData)
   .then(response => {
     // Verificando se a solicitação foi bem-sucedida
