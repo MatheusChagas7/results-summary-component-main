@@ -1,5 +1,5 @@
 // fetch para obter o conteúdo do arquivo JSON
-fetch('../data.json')
+fetch('./data.json')
   .then(response => {
     // Verificando se a solicitação foi bem-sucedida
     if (!response.ok) {
